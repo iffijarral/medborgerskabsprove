@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,iFAAI;ADEZ,AAAA,eAAe,CAAA;EACX,OAAO,EAAE,GAAG;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAMtB;;AAVD,AAMI,eANW,CAMX,GAAG,CAAA;EACC,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "AboutExam.scss",
+        "../Variables/Variables.scss"
+    ],
+    "names": [],
+    "file": "AboutExam.css"
+}

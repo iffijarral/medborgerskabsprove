@@ -1,0 +1,60 @@
+@import "../Variables/Variables.scss";
+
+.factsWrapper {
+    
+    width: 100%;    
+    display: flex;
+    .innerWrapper {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 25em;
+        background-color: #000;
+       
+        .factTitle {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            padding: 0 3em 2em;
+            width: 100%;
+            
+            h1 {
+                color: white;
+                font-size: calc(1vh + 2vw + 30px);
+                padding: 0;
+                margin: 0;
+                text-align: left;
+            }
+            p {
+                color: white;
+                padding: 0;
+                margin: 0;               
+            }
+        }
+    }
+}
+
+@media (max-width: 43em) {  
+    
+    .hYcyLS, .kksiKu {
+        margin: 0 0 !important;
+    }
+    .rec-arrow-left, .rec-arrow-left:disabled {
+        position: absolute;
+        left: 0;
+        z-index: 999;
+    }
+    .rec-arrow-right, .rec-arrow-right:disabled {
+        position: absolute;
+        right: 0;
+        z-index: 999;
+    }
+
+    .factTitle {
+        h1 {
+            font-size: 3rem !important;
+        }
+    }
+    
+    
+}

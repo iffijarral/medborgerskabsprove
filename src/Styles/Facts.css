@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.factsWrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.factsWrapper .innerWrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 25em;
+  background-color: #000;
+}
+
+.factsWrapper .innerWrapper .factTitle {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 3em 2em;
+  width: 100%;
+}
+
+.factsWrapper .innerWrapper .factTitle h1 {
+  color: white;
+  font-size: calc(1vh + 2vw + 30px);
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.factsWrapper .innerWrapper .factTitle p {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 43em) {
+  .hYcyLS, .kksiKu {
+    margin: 0 0 !important;
+  }
+  .rec-arrow-left, .rec-arrow-left:disabled {
+    position: absolute;
+    left: 0;
+    z-index: 999;
+  }
+  .rec-arrow-right, .rec-arrow-right:disabled {
+    position: absolute;
+    right: 0;
+    z-index: 999;
+  }
+  .factTitle h1 {
+    font-size: 3rem !important;
+  }
+}
+/*# sourceMappingURL=Facts.css.map */

@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.tests {
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tests div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(0, 1fr))[3];
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 1.25rem;
+          column-gap: 1.25rem;
+  row-gap: 1rem;
+}
+
+.tests div a {
+  background: white;
+  -webkit-box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+          box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+  padding: 0.8rem 1.5rem;
+  border-radius: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0.5px solid #ccc;
+  text-align: center;
+}
+
+.tests div a:hover {
+  background-color: salmon;
+  cursor: pointer;
+  color: white;
+}
+
+.testContainer {
+  padding: 2em;
+  background: #cccccc1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.testContainer div.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testContainer div.content div.question {
+  min-height: 3.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.testContainer div.content span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 1em;
+}
+
+.testContainer div.content h4 {
+  color: #707070;
+  margin: 0;
+  padding-left: 0.5em;
+}
+
+.testContainer div.content div.options {
+  padding: 1.5em;
+  background: white;
+  -webkit-box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+          box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+  border-radius: 2rem;
+  width: 100%;
+  min-height: 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testContainer div.content div.options ul li {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testContainer div.content div.options ul li label {
+  padding-left: 0.5em;
+}
+
+.testContainer div.content div.options ul li:first-child {
+  margin-top: 0;
+}
+
+.testContainer div.content div.buttons {
+  padding-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(0, 1fr))[8];
+      grid-template-columns: repeat(8, minmax(0, 1fr));
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.testContainer div.content div.buttons a {
+  background: white;
+  -webkit-box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+          box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+  border-radius: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.5px solid #ccc;
+  text-align: center;
+}
+
+.testContainer div.content div.buttons a:hover {
+  background-color: salmon;
+  cursor: pointer;
+  color: white;
+}
+
+.testContainer div.content div.buttons .error {
+  background-color: red;
+  color: white;
+}
+
+.testContainer div.content div.navigationButtons {
+  padding-top: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.testContainer div.content div.navigationButtons a {
+  background: white;
+  -webkit-box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+          box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+  padding: 0.8rem 1.5rem;
+  border-radius: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0.5px solid #ccc;
+  text-align: center;
+}
+
+.testContainer div.content div.navigationButtons a:hover {
+  background-color: salmon;
+  cursor: pointer;
+  color: white;
+}
+
+.MuiDialogTitle-root {
+  text-align: center;
+  background-color: salmon;
+}
+
+.MuiDialogTitle-root h2 {
+  text-align: center;
+  color: white;
+}
+
+.resultCard {
+  width: 25em;
+}
+
+.resultCard .pass {
+  color: green;
+}
+
+.resultCard .fail {
+  color: red;
+}
+
+.resultCard .info {
+  color: #056aa8;
+}
+
+@media only screen and (min-width: 43em) {
+  .testContainer div.content {
+    width: 50%;
+  }
+  .tests div {
+    -ms-grid-columns: (minmax(0, 1fr))[5];
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .footer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Tests.css.map */

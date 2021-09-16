@@ -1,0 +1,32 @@
+@import '../Variables/Variables.scss';
+.mainDiv {
+    padding: 2em 2em;
+    background-color: $primaryColor;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    height: 20em;
+    text-align: center;    
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        h1, p{
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        
+        hr{            
+            width: 70%;
+        }
+    }
+    a {
+        @include flatButtonStyle;
+        
+    }
+}
+

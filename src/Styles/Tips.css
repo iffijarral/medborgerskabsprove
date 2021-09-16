@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.tips {
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tips div h1 {
+  color: #707070;
+  text-align: left;
+}
+
+.tips div ul {
+  list-style-type: none;
+}
+
+.tips div ul li {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 43em) {
+  .tips div {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=Tips.css.map */

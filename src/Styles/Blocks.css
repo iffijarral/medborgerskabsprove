@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.blocksWrapper {
+  background-color: #2a94f40d;
+  background: -webkit-gradient(linear, left top, left bottom, from(RGB(0, 0, 0, 1)), to(RGB(0, 0, 0, 0))), url("../images/block3.jpg");
+  background: linear-gradient(to bottom, RGB(0, 0, 0, 1), RGB(0, 0, 0, 0)), url("../images/block3.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.blocksWrapper .blocksContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  -webkit-column-gap: 0.4em;
+          column-gap: 0.4em;
+  row-gap: 1em;
+  padding: 2em;
+}
+
+.blocksWrapper .blocksContainer div.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #ccc;
+}
+
+.blocksWrapper .blocksContainer div.block .icon {
+  color: white;
+  font-size: 4rem;
+}
+
+.blocksWrapper .blocksContainer .blockParagraph, .blocksWrapper .blocksContainer .blockHeading {
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 43em) {
+  .blocksContainer {
+    padding: 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3] !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+/*# sourceMappingURL=Blocks.css.map */

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.testimonials {
+  padding: 2em 2em;
+  color: #707070;
+  background-color: #cccccc1f;
+}
+
+.testimonialMain {
+  padding-top: 1em;
+}
+
+.testimonial {
+  -webkit-box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+          box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+  background-color: white;
+  border-radius: 2rem;
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonial img {
+  width: 5em;
+  height: 5em;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  margin-top: -2em;
+  z-index: 99;
+}
+
+.testimonial cite {
+  margin-left: 1em;
+  padding-bottom: 1em;
+}
+
+.carouselStyles button.rec-dot,
+.carouselStyles .rec-dot:active,
+.carouselStyles .rec-dot:focus:enabled {
+  -webkit-box-shadow: 0 0 1px 3px #999;
+          box-shadow: 0 0 1px 3px #999;
+}
+
+.carouselStyles button.hliWYQ:hover:enabled,
+.carouselStyles button.hliWYQ:focus:enabled {
+  background-color: #056aa8;
+}
+
+.carouselStyles button.rec-dot:hover,
+.carouselStyles button.rec-dot:active,
+.carouselStyles button.rec-dot:focus,
+.carouselStyles button.ejXxNI {
+  background-color: #056aa8 !important;
+  -webkit-box-shadow: 0 0 1px 3px #056aa8 !important;
+          box-shadow: 0 0 1px 3px #056aa8 !important;
+}
+
+.carouselStyles button.cGKbZh:hover:enabled,
+.carouselStyles button.cGKbZh:focus:enabled {
+  background-color: #056aa8 !important;
+}
+
+.carouselStyles button.cGKbZh,
+.carouselStyles button.ehkxHv:active {
+  background-color: #056aa8 !important;
+}
+
+.carouselStyles rec-dot_active {
+  background-color: #056aa8 !important;
+}
+/*# sourceMappingURL=Testimonial.css.map */

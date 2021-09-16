@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.mainDiv {
+  padding: 2em 2em;
+  background-color: #056aa8;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20em;
+  text-align: center;
+}
+
+.mainDiv .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainDiv .title h1, .mainDiv .title p {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainDiv .title hr {
+  width: 70%;
+}
+
+.mainDiv a {
+  color: #ffffff;
+  background-color: #056aa8;
+  -webkit-box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+          box-shadow: 0px 5px 10px 0px RGB(0 0 0/15%);
+  padding: 2rem 8.8rem;
+  border: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  height: 3.3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: salmon;
+  /* default color */
+  border-radius: 5px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, salmon), color-stop(50%, #056aa8)) right;
+  background: linear-gradient(to left, salmon 50%, #056aa8 50%) right;
+  background-size: 200%;
+  -webkit-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+
+.mainDiv a:hover {
+  background-position: left;
+  color: white;
+}
+/*# sourceMappingURL=Banner.css.map */
